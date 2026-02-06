@@ -1,7 +1,9 @@
 body {
-  background: #c0c0c0; 
+  background: linear-gradient(135deg, #FFC0CB, #B0E0E6); 
   font-family: Raleway, sans-serif;
   color: #666;
+  height: 100vh; 
+  margin: 0;
 }
 
 .register {
@@ -9,7 +11,9 @@ body {
   padding: 40px 50px;
   max-width: 300px;
   border-radius: 5px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 1px 1px 1px #666;
 }
   .register input {
@@ -17,41 +21,41 @@ body {
     display: block;
     box-sizing: border-box;
     margin: 10px 0;
-    padding: 14px 12px;
-    font-size: 16px;
-    border-radius: 2px; 
+    padding: 6px 8px;
+    font-size: 14px;
+    border-radius: 7px;
     font-family: Raleway, sans-serif;
   }
 
-.register input[type=text],
+.register input,
 .register input[type=password] {
   border: 1px solid #c0c0c0;
   transition: .2s;
+  background: rgba(255, 255, 255, 0.6);
 }
 
-.register input[type=text]:hover {
-  border-color: #F44336;
+.register input:hover {
+  border-color: #3678f4;
   outline: none;
   transition: all .2s ease-in-out;
 } 
 
 .register input[type=submit] {
   border: none;
-  background: #EF5350;
+  background:#3678f4;
   color: white;
-  font-weight: bold;  
   transition: 0.2s;
-  margin: 20px 0px;
+  padding: 10px;
 }
 
 .register input[type=submit]:hover {
-  background: #F44336;  
+  background: #538bf3;
   cursor: pointer;
 }
 
   .register h2 {
     margin: 20px 0 0; 
-    color: #EF5350;
+    color: #fff;
     font-size: 28px;
   }
 

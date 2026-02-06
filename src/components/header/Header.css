@@ -12,17 +12,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 100vw;
+    height: 10vh;
     padding: 15px;
     background: linear-gradient(135deg, #432371, #714674, #9F6976, #CC8B79);
     font-size: 16px;
   }
 
-
   .logo {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Brittany Signature', sans-serif;
+    right: 50%;
     color: #FFFFFF;
   
       transition: all 0.3s ease 0s;
@@ -63,8 +64,8 @@
   border-radius: 50px;
   margin-left: 20px;
 
-  color: #FFFFFF;
-  background-color: #0088A9;
+  color: #ffffff;
+  background-color: #582E8E;
 
   font-weight: 600;
   text-decoration: none;
@@ -76,7 +77,8 @@
 
 .login_button a:hover,
 .lgout_button a:hover {
-  background-color: #008888;
+  background-color: #4B0082;
   opacity: 0.8;
 }
+
 

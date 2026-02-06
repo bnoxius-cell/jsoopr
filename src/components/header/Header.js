@@ -37,11 +37,11 @@ export default function Header() {
     <nav class="header" onMouseLeave={handleMouseLeave}>
       <div class="logo" onClick={homeHandler} onMouseEnter={() => handleMouseEnter(-1)}>Resource Manager</div>
       <div class="nav_items">
-        <div class="nav_item" onMouseEnter={() => handleMouseEnter(0)}><a onClick={homeHandler}>Home</a></div>
-        <div class="nav_item" onMouseEnter={() => handleMouseEnter(1)}><a href="https://www.google.com" target="_blank">Google</a></div>
-        <div class="nav_item" onMouseEnter={() => handleMouseEnter(2)}><a href="https://www.youtube.com" target="_blank">Youtube</a></div>
-        <div class="nav_item" onMouseEnter={() => handleMouseEnter(3)}><a href="https://www.facebook.com" target="_blank">Facebook</a></div>
-        <div class="nav_item" onMouseEnter={() => handleMouseEnter(4)}><a href="https://www.github.com" target="_blank">GitHub</a></div>
+        <div class="nav_item" onMouseEnter={() => handleMouseEnter(0)}><a onClick={homeHandler}>Dashboard</a></div>
+        <div class="nav_item" onMouseEnter={() => handleMouseEnter(1)}><a href="https://www.google.com" target="_blank">Resources</a></div>
+        <div class="nav_item" onMouseEnter={() => handleMouseEnter(2)}><a href="https://www.youtube.com" target="_blank">Calendar</a></div>
+        <div class="nav_item" onMouseEnter={() => handleMouseEnter(3)}><a href="https://www.facebook.com" target="_blank">Projects</a></div>
+        <div class="nav_item" onMouseEnter={() => handleMouseEnter(4)}><a href="https://www.github.com" target="_blank">About Us</a></div>
       </div>
       {isShowSecondNav && activeNav !== -1}
       {isLoggedIn === "true" ?

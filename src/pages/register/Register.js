@@ -28,14 +28,14 @@ export default function Login() {
 
   return (
     <form className="register" onSubmit={e => registerHandler(e)}>
-      <h2>Welcome, User!</h2>
-      <p>Please register</p>
+      <h2>Register</h2>
+      <p></p>
       <input id="username" required type="text" placeholder="User Name" />
       <input id="password" required type="password" placeholder="Password" />
       <input id="confirmation" required type="password" placeholder="Confirm Password" />
       <input type="submit" value="Register" />
       <div className="links">
-        <a onClick={loginHandler}>Login</a>
+        <a onClick={loginHandler}>Already have an account? Login</a>
       </div>
     </form>
   );

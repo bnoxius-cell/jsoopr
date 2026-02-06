@@ -28,13 +28,13 @@ export default function Login() {
 
   return (
     <form className="login" onSubmit={e => loginHandler(e)}>
-      <h2>Welcome, User!</h2>
+      <h2>Welcome back!</h2>
       <p>Please log in</p>
       <input id="username" required type="text" placeholder="User Name" />
       <input id="password" required type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <div className="links">
-        <a onClick={registerHandler}>Register</a>
+        <a onClick={registerHandler}>No account yet? Register</a>
       </div>
     </form>
   );
